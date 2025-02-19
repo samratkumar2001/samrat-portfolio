@@ -1,5 +1,6 @@
 import React from 'react'
 import "../Css/about.css"
+import Card from './Card'
 
 import profile from "../images/profile.jpg"
 import profile2 from "../images/profile2.png"
@@ -204,6 +205,10 @@ const About = () => {
 
 
 
+
+      {/* Card Part */}
+   
+      
 
 
 
