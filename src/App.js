@@ -9,12 +9,13 @@ import './App.css';
 function App() {
   return (
     <>
+    {/* <Navbar/>
+    <About/> */}
     <BrowserRouter>
       <Navbar/>
         <Routes>
           <Route path='/' element={<About/>}/>
           <Route path='/projects' element={<Projects/>}/>
-          {/* <Route path='/about' element={<About/>}/> */}
           <Route path='/resume' element={<Resume/>}/>
         </Routes>
 
